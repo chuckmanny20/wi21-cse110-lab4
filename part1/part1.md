@@ -15,30 +15,46 @@
 11.  console.log(finalPrice) will print 0 because it was a const set to 0 at the beginning of the function
 12.  [ 0, 0, 0 ]. This is because it just pushes the constant finalPrice which was set to 0 at the beginning of the function.
     
-13.  
-  A. student.name
+13. A. student.name
+  
   B. student['Grad Year']
+  
   C. student.greeting()
+  
   D. student['Favorite Teacher'].name
+  
   E. student.courseLoad[0]
+  
 
-14. 
-  A. '3' + 2 becomes '32' because + acts as a concatenation operator
+14. A. '3' + 2 becomes '32' because + acts as a concatenation operator
+  
   B. '3' - 2 becomes 1 (number) because - is only a arithmetic operator
+  
   C. 3 + null becomes 3 because, since 3 is a number, null gets converted to 0
+  
   D. '3' + null becomes '3null" because, since + is the concatentation operator, null is treated as a string
+  
   E. true + 3 becomes 4 because true is treated as 1
+  
   F. false + null becomes 0 because false is treated as 0 (number)
+  
   G. "3" + undefined becomes "3undefined" because + is treated as concatentation operator
+  
   H. "3" - undefined is NaN b/c neither of the operands are numbers
+  
 
-15. 
-  A. '2' > 1 true b/c '2' gets converted to a number
+15. A. '2' > 1 true b/c '2' gets converted to a number
+  
   B. '2' < '12' false b/c '2' and '12' are converted to numbers
+  
   C. 2 == '2' true b/c '2' is converted to a number
+  
   D. 2 === '2' false b/c '2' is not converted to a number
+  
   E. true == 2 false b/c true is treated as 1
+  
   F. true === Boolean(2) true b/c === checks if operands are equal w/o type conversions and Boolean(2) changes to true because 2 is a non-zero number.
+  
 
 16. == compares the value of the two operands (doing type conversion if needed) while === compares the value and types of the operands (does no type conversions).
 17. 'How are you?' gets printed because true == 2 is false since true is treated as a number 1. Then in the else if(2), 2 is true because it is a non-zero number.
@@ -49,6 +65,10 @@
     until the for loop is done. ((1 + 2) * 2, (2 + 2) * 2, (3 + 2) * 2) = [6, 8, 10]
 
 21. 1
-    4   - 1 and 4 print first b/c they have no interval to keep track of
-    3   - 3 prints next because it has an interval of 0 seconds
-    2   - 2 prints last because it has an interval of 1 second
+
+    4   (1 and 4 print first b/c they have no interval to keep track of)
+    
+    3   (3 prints next because it has an interval of 0 seconds)
+    
+    2   (2 prints last because it has an interval of 1 second)
+    
